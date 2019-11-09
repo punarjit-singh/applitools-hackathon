@@ -1,0 +1,17 @@
+{
+    "video": false,
+    "videoUploadOnPasses": false,
+    "trashAssetsBeforeRuns": true,
+    "screenshotsFolder": "mochawesome-report/screenshots",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "charts": true,
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "reportTitle": "Applitools hackathon challenge",
+        "shortScrFileNames": false
+    },
+    "viewportWidth": 1200,
+    "viewportHeight": 1000
+}

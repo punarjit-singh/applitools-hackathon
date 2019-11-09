@@ -1,0 +1,25 @@
+[{
+        "skip": false,
+        "test": "noUsernamePassword",
+        "username": "",
+        "password": ""
+    },
+    {
+        "skip": false,
+        "test": "usernameOnly",
+        "username": "applitoolsHackathon",
+        "password": ""
+    },
+    {
+        "skip": false,
+        "test": "passwordOnly",
+        "username": "",
+        "password": "applitoolsHackathon"
+    },
+    {
+        "skip": false,
+        "test": "hasUsernamePassword",
+        "username": "applitoolsHackathon",
+        "password": "applitoolsHackathon"
+    }
+]

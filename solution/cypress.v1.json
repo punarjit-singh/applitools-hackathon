@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://demo.applitools.com/hackathon.html#",
+  "env": {
+    "showAd": "https://demo.applitools.com/hackathon.html?showAd=true"
+  }
+}
