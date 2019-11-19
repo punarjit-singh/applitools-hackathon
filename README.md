@@ -3,7 +3,7 @@ Uses cypress and applitools/eyes-cypress
 
 ## Setup
 
-### Prerequisite:
+### Prerequisites:
 * node js version 8 or higher
 * git (if cloning)
 * google chrome browser
@@ -39,4 +39,4 @@ npm run run:v2
 
 ## Results
 Eyes Test Results: _[here](https://eyes.applitools.com/app/test-results/00000251828536381163/?accountId=ppHSdiNW9Eeeim16kIS69A~~)_
-<br>Cypress Test Results: _~projectRoot/solution/mochawesome-report/mochawesome.html_
+<br><br>Cypress Test Results: _~projectRoot/solution/mochawesome-report/mochawesome.html_
