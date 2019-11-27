@@ -2,31 +2,36 @@
 /// <reference types="@applitools/eyes-cypress" />
 
 export function verifyTransactionTableSort() {
-
   cy.get("[id='amount']")
     .should("be.visible")
     .click();
 
   cy.eyesCheckWindow({
     tag: "Table sort",
-    target: 'region',
+    target: "region",
     selector: {
-      type: 'css',
+      type: "css",
       selector: "[class^='element-wrapper']:not([class*='compact'])"
     }
   });
-  
 }
 
 export function verifyDynamicAdGifs() {
-
   cy.eyesCheckWindow({
-    tag: "Dynamic ad gifs",
-    target: 'region',
-      selector: {
-        type: 'css',
-        selector: ".element-balances"
-      }
+    tag: "Dynamic ad one",
+    target: "region",
+    selector: {
+      type: "css",
+      selector: "[id='flashSale']"
+    }
   });
 
+  cy.eyesCheckWindow({
+    tag: "Dynamic ad two",
+    target: "region",
+    selector: {
+      type: "css",
+      selector: "[id='flashSale2']"
+    }
+  });
 }

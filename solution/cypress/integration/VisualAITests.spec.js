@@ -115,7 +115,7 @@ context("Applitools Visual AI Rockstar Hackathon", () => {
       cy.eyesClose();
     });
 
-    it("should display ad gifs correctly", () => {
+    it("should display ads correctly", () => {
       
       homeSteps.verifyDynamicAdGifs();
 

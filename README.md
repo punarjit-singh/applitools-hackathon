@@ -12,7 +12,8 @@ Uses cypress and applitools/eyes-cypress
 ### Clone repo and install required dependencies:
 
 ```
-git clone https://github.com/punarjit-singh/applitools-hackathon.git
+git clone https://github.com/punarjit-singh/applitools-hackathon.git 
+or download and unzip https://github.com/punarjit-singh/applitools-hackathon
 
 cd solution
 
@@ -40,3 +41,23 @@ npm run run:v2
 ## Results
 Eyes Test Results: _[here](https://eyes.applitools.com/app/test-results/00000251828536381163/?accountId=ppHSdiNW9Eeeim16kIS69A~~)_
 <br><br>Cypress Test Results: _~projectRoot/solution/mochawesome-report/mochawesome.html_
+
+## Highlevel Code Map
+
+Just to give an overview and understanding of project structure,
+the following code map shows where asssertions, selectors and test data is placed:
+
+```
+solution
+    - cypress
+        - fixtures
+            - login.json (contains user credentials and other details for data driven tests)
+        - integration
+            - TraditionalTests.spec.js
+            - VisualAITests.spec.js
+        - plugins
+        - support
+            - traditional (contains all assertions and supporting css selectors for traditional cypress tests)
+            - visualAI (contains all assertions for visual AI tests)
+    - cypress configs etc.
+```
